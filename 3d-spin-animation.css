@@ -1,0 +1,29 @@
+.rotate {
+  animation: rotateAnimation 3s linear;
+}
+@keyframes rotateAnimation {
+  from {transform: rotateY(0deg);}
+  to {transform: rotateY(360deg);}
+  0% {
+    background-color: initial;
+  }
+  24.99% {
+    background-color: initial;
+  }
+  25% {
+    background-color: white;
+  }
+  49.99% {
+    background-color: white;
+  }
+  50% {
+    background-color: white;
+  }
+  74.99% {
+    background-color: white;
+  }
+  75% {
+    background-color: initial
+  }
+  
+}
